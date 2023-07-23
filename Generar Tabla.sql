@@ -1,0 +1,11 @@
+USE PLATAFORMAALUMNOS;
+
+CREATE TABLE Alumno
+(
+	Id INT PRIMARY KEY IDENTITY (1,1),
+	Nombre NVARCHAR(50),
+	Apellido NVARCHAR(50),
+	Calificacion FLOAT
+);
+
+GO
